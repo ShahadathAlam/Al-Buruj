@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Al Buruj Institute</title>
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Handlee&family=Montserrat&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- bootstrap css cdn added(it must be added before our own css link/internal css) -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <!-- our own css link added/internal css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header starts -->
+    <header>
+      <nav class="navbar p-md-3 p-lg-2 navbar-expand-lg bg-body-primary">
+        <div class="container-fluid">
+          <a
+            class="navbar-brand text-white"
+            href="#"
+            style="font-weight: bolder; font-family: 'Handlee', cursive"
+          >
+            <img
+              src="images/logo.png"
+              alt="logo"
+              width="45"
+              height="40"
+              class="d-inline-block align-text-middle rounded-circle border border-dark"
+            />
+            Al-Buruj Institute
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span><i class="fas fa-bars navbar-icon fa-2x"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link text-center text-md-start"
+                  aria-current="page"
+                  href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-center text-md-start" href="#"
+                  >About Us</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-center text-md-start"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Courses
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item text-center text-md-start" href="#"
+                      >Application</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-center text-md-start"
+                  href="resources.html"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Resources
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a
+                      class="dropdown-item text-center text-md-start"
+                      href="resources.html"
+                      >Nahw Resources</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item text-center text-md-start"
+                      href="resources.html"
+                      >Sarf Resources</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item text-center text-md-start"
+                      href="resources.html"
+                      >Balagah Resources</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item text-center text-md-start"
+                      href="resources.html"
+                      >Logic Resources</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item text-center text-md-start"
+                      href="resources.html"
+                      >Quran Resources</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item text-center text-md-start"
+                      href="resources.html"
+                      >Hadith Resources</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item text-center text-md-start"
+                      href="resources.html"
+                      >Akhida Resources</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item text-center text-md-start"
+                      href="resources.html"
+                      >Fiqh Resources</a
+                    >
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a
+                      class="dropdown-item text-center text-md-start"
+                      href="resources.html"
+                      >Misc.</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-center text-md-start" href="#"
+                  >Publications</a
+                >
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-center text-md-start"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Student Hub
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item text-center text-md-start" href="#"
+                      >Syllabus Details</a
+                    >
+                  </li>
+
+                  <li>
+                    <a class="dropdown-item text-center text-md-start" href="#"
+                      >Year Planner</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-center text-md-start" href="#"
+                  >Book Retailers</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-center text-md-start"
+                  href="contact-us.html"
+                  target="_blank"
+                  >Contact Us</a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a
+                  class="nav-link disabled text-center text-md-start"
+                  aria-disabled="true"
+                  >Admission</a
+                >
+              </li>
+            </ul>
+
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-dark" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!-- section-banner starts -->
+      <section id="section-banner">
+        <div
+          class="about-us-banner-container d-flex justify-content-center align-items-center"
+        >
+          <div class="banner-contents text-center">
+            <h1 class="text-white bg-dark p-2 rounded border border-white">
+              About Us
+            </h1>
+          </div>
+        </div>
+      </section>
+      <!-- section-banner ends -->
+    </header>
+    <!-- header ends -->
+    <main>
+      <!-- about-us starts -->
+      <section id="about-us">
+        <section-title>
+          <h3></h3>
+          <!-- <hr> -->
+        </section-title>
+        <div class="row">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-10">
+            <div class="section-desc">
+              <p>
+                Established in Nov 25, 2020, Al-Buruj Institute caters for only
+                men in providing classical Islamic education. Our vision is to
+                provide strong foundations in Arabic and to revolutionise the
+                acquisition of sacred knowledge, making it accessible to
+                everyone.
+              </p>
+
+              <p>
+                The foundation of our educational resources primarily rests upon
+                the esteemed contributions of the Al-Qalam Institute. Their
+                materials constitute the cornerstone of our curriculum, offering
+                a wealth of knowledge and insights that are highly regarded
+                within our academic community. These resources, meticulously
+                curated and continuously updated by experts in the field, serve
+                as a beacon of excellence, guiding our students on a path of
+                comprehensive learning and intellectual growth. Through our
+                partnership with the Al-Qalam Institute, we are proud to provide
+                students with access to a vast and reputable repository of study
+                materials, fostering a deep and meaningful educational journey.
+              </p>
+              <br />
+              <p>
+                <span>What makes us unique? </span><br />
+                --Our focus is to provide
+                <span>strong foundations in Arabic</span> as an essential base
+                for Alimiyyah studies. <br />
+                -- We aim to equip students with the tools to access the
+                <span> Quran, Hadith and Arabic material</span>, confidently and
+                independently.
+              </p>
+              <p>
+                We continuously strive in seeking the pleasure of our Lord, Most
+                High, inculcating the Sunnah of His Beloved Messenger ﷺ ,
+                attaining excellence and providing enthusiasm for seeking
+                knowledge and serving mankind.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- about-us ends -->
+
+      <!-- our-team starts -->
+      <section id="our-team">
+        <div class="section-title">
+          <h3>Our Team</h3>
+          <hr class="hr-style" />
+        </div>
+
+        <div class="row">
+          <div class="col-lg-5">
+            <div class="profile-desc text-center text-md-start">
+              <i class="fa-solid fa-user fa-3x icon-style"></i>
+              <h4>Md Shahadath Alam</h4>
+              <h5>Instructor</h5>
+              <p>Name : Md Shahadath Alam</p>
+
+              <p>Address : Chattogram, Bangladesh</p>
+
+              <p>
+                Email :
+                <a href="mailto:shahadathalam@ymail.com">
+                  shahadathalam@ymail.com
+                </a>
+              </p>
+
+              <p>Phone : <a href="tel:+8801837130481"> +8801837130481 </a></p>
+
+              <p>
+                Website :
+                <a
+                  href="https://alburujinstitute.wordpress.com/"
+                  target="_blank"
+                >
+                  alburujinstitute.wordpress.com
+                </a>
+              </p>
+
+              <p>
+                <a
+                  href="https://www.dropbox.com/scl/fi/hzp75x5j3qrgy78x8bs4j/shahadath-alam-cv.pdf?rlkey=8f1cfk8pbppj47750nkikh9qt&dl=0"
+                  target="_blank"
+                  download=""
+                >
+                  <button class="btn btn-outline-dark btn-sm">
+                    Download CV
+                  </button>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-7"></div>
+          <div class="col-lg-5">
+            <div class="skill-desc text-center text-md-start">
+              <i class="fa-solid fa-briefcase fa-3x icon-style"></i>
+
+              <h5>Skills</h5>
+
+              <table>
+                <tr>
+                  <td>Nahw</td>
+                  <td>
+                    <span class="star">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half"></i>
+                      <i class="fa-regular fa-star"></i>
+                    </span>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>Sarf</td>
+                  <td>
+                    <span class="star">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                    </span>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>Balagah</td>
+                  <td>
+                    <span class="star">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                    </span>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-5">
+            <div class="profile-desc text-center text-md-start">
+              <i class="fa-solid fa-user fa-3x icon-style"></i>
+              <h4>Md Shahadath Alam</h4>
+              <h5>Beginner Web Developer</h5>
+              <p>Name : Md Shahadath Alam</p>
+
+              <p>Address : Chattogram, Bangladesh</p>
+
+              <p>
+                Email :
+                <a href="mailto:shahadathalam@ymail.com">
+                  shahadathalam24@gmail.com
+                </a>
+              </p>
+
+              <p>Phone : <a href="tel:+8801837130481"> +8801837130481 </a></p>
+
+              <p>
+                Website :
+                <a
+                  href="https://shahadathalam.github.io/personal-site/"
+                  target="_blank"
+                >
+                  https://shahadathalam.github.io/personal-site/
+                </a>
+              </p>
+
+              <p>
+                <a
+                  href="https://www.dropbox.com/scl/fi/hzp75x5j3qrgy78x8bs4j/shahadath-alam-cv.pdf?rlkey=8f1cfk8pbppj47750nkikh9qt&dl=0"
+                  target="_blank"
+                  download=""
+                >
+                  <button class="btn btn-outline-dark btn-sm">
+                    Download CV
+                  </button>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-7"></div>
+          <div class="col-lg-5">
+            <div class="skill-desc text-center text-md-start">
+              <i class="fa-solid fa-briefcase fa-3x icon-style"></i>
+
+              <h5>Skills</h5>
+              <table>
+                <tr>
+                  <td>HTML</td>
+                  <td>
+                    <span class="star">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half"></i>
+                      <i class="fa-regular fa-star"></i>
+                    </span>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>CSS</td>
+                  <td>
+                    <span class="star">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                    </span>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>JS</td>
+                  <td>
+                    <span class="star">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                    </span>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- about-us ends -->
+    </main>
+
+    <!-- Footer starts -->
+    <footer>
+      <div class="row d-flex justify-content-center align-items-center">
+        <div class="col-lg-6 text-center text-lg-start">
+          <p class="small mb-0">
+            copyright &copy; 2023 Al-Buruj Institute. All rights reserved.
+          </p>
+        </div>
+
+        <div
+          class="col-lg-6 text-center text-lg-end d-flex justify-content-center align-items-center"
+        >
+          <button class="btn">
+            <a href="#"
+              ><i class="fa-solid fa-arrow-up" style="color: green"></i
+            ></a>
+          </button>
+
+          <button
+            class="btn"
+            onclick="window.open('https://www.youtube.com/channel/UCS2Uwxzc_72DtUI5_KeutOQ/featured')"
+            class="request-callback"
+          >
+            <i class="fa-brands fa-youtube" style="color: #ff0000"> </i>
+          </button>
+          <button
+            class="btn"
+            onclick="window.open('https://www.facebook.com/alburujbangladesh/')"
+            class="request-callback"
+          >
+            <i class="fa-brands fa-facebook" style="color: #1091f3"> </i>
+          </button>
+          <button
+            class="btn"
+            onclick="window.open('https://www.linkedin.com/in/engr-md-shahadath-alam-chowdhury-b-sc-gce-a06167171/')"
+            class="request-callback"
+          >
+            <i class="fa-brands fa-linkedin" style="color: #0a66c2"> </i>
+          </button>
+          <button
+            class="btn"
+            onclick="window.open('https://www.instagram.com/alburujinstitute/')"
+            class="request-callback"
+          >
+            <i class="fa-brands fa-instagram" style="color: #b63187"> </i>
+          </button>
+
+          <button
+            class="btn"
+            onclick="window.open('mailto:shahadathalam@ymail.com')"
+            class="request-callback"
+          >
+            <i class="fa-solid fa-envelope" style="color: #6001d2"> </i>
+          </button>
+          <button
+            class="btn"
+            onclick="window.open('https://github.com/ShahadathAlam')"
+            class="request-callback"
+          >
+            <i class="fa-brands fa-github" style="color: white"></i>
+          </button>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Footer ends -->
+
+    <!-- jQuery and Bootstrap Bundle (includes Popper) -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

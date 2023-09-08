@@ -1,0 +1,217 @@
+/* common & reset code */
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  /* font-family: 'Dancing Script', cursive; */
+  /* font-family: 'Handlee', cursive; */
+  font-family: "Montserrat", sans-serif;
+}
+h1 {
+  font-family: "Handlee", cursive;
+
+  font-weight: bolder;
+}
+h2 {
+  font-family: "Dancing Script", cursive;
+}
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+}
+.section-title h3 {
+  font-weight: bolder;
+  text-align: center;
+}
+.hr-style {
+  border: 5px dotted black;
+  border-bottom: none;
+  width: 50px;
+  font-weight: bolder;
+  margin: 0 auto;
+}
+
+/* common & reset code */
+
+/* header starts */
+header {
+  background-image: url(images/banner-image.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.navbar-icon {
+  color: white;
+}
+.nav-link {
+  color: white;
+
+  border-radius: 5px;
+  transition: 0.4s;
+}
+.nav-link:hover {
+  background-color: #dae8eb;
+  color: black;
+  transform: scale(1.05);
+}
+/* banner starts */
+.banner-container {
+  height: 100vh;
+}
+.banner-contents svg {
+  transition: all 2s;
+}
+.banner-contents svg:hover {
+  transform: scale(1.2) rotate(360deg);
+}
+/* banner ends */
+
+/* header ends */
+
+/* features starts */
+#features {
+  background-color: #183d3d;
+
+  color: white;
+  padding: 5% 10%;
+}
+
+.features-col {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 25px 15px;
+  transition: 0.4s;
+  width: 100%;
+}
+.features-col:hover {
+  transform: scale(1.1);
+  box-shadow: 2px 6px 5px white;
+}
+.icon-style {
+  border: 3px solid;
+  border-radius: 50%;
+  padding: 15px;
+  margin: 20px 0;
+}
+/* features ends  */
+
+/* about-us starts */
+#about-us {
+  padding: 5% 10%;
+}
+#about-us .section-desc p {
+  text-align: justify;
+}
+.about-us-banner-container {
+  height: 40vh;
+}
+
+#about-us span {
+  font-weight: bold;
+}
+/* our team starts */
+#our-team {
+  background-color: #93b1a6;
+  padding: 5% 10%;
+}
+.profile-desc {
+  margin: 2rem 0;
+}
+.profile-desc p {
+  margin-bottom: 0;
+  font-size: 0.9rem;
+}
+.profile-desc a {
+  font-size: 0.9rem;
+  color: black;
+  font-weight: bold;
+}
+/* our team ends */
+/* about-us ends */
+
+/* Tutorials starts */
+#section-tutorials {
+  padding: 5% 10%;
+  background-color: #41644a;
+}
+.card {
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  transition: 0.4s;
+}
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 2px 6px 5px white;
+}
+/* Tutorials ends */
+
+/* carousel starts */
+
+#feedback {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 5%;
+  width: 420px;
+  height: 420px;
+  border: 2px solid white;
+}
+.section-title {
+  text-align: center;
+}
+.hr-style {
+  border: 5px dotted white;
+  border-bottom: none;
+  width: 50px;
+  margin: 0 auto;
+}
+.carousel-image {
+  width: 250px;
+  height: auto;
+}
+
+.carousel-item {
+  padding: 5% 15%;
+  text-align: center;
+}
+.carousel-indicators {
+  bottom: -30px;
+}
+/* carousel ends */
+
+/* contact-us starts */
+#contact-us {
+  padding: 5% 10%;
+  background-color: #b9b4c7;
+}
+/* contact-us ends */
+
+/* footer starts */
+footer {
+  padding: 1% 10%;
+  background-color: #02132b;
+  color: white;
+}
+footer .btn i:hover {
+  color: white !important;
+}
+
+/* footer ends */
+
+/* responsive  */
+
+@media (max-width: 600px) {
+  footer .small {
+    font-size: 0.5rem;
+  }
+}
